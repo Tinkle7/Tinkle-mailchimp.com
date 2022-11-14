@@ -1,0 +1,27 @@
+.btn_animation {
+  padding: 10px 25px;
+  position: relative;
+  border: 1px solid black;
+  border-radius: 22px;
+  transition: bottom 0.1s linear;
+  bottom: 0px;
+}
+
+.btn_animation:hover {
+  box-shadow: #241c15 0px 6px;
+  bottom: 5px;
+}
+
+@media all and (min-width: 481px) and (max-width: 768px) {
+  .btn_animation {
+    padding: 7px 15px;
+    font-size: 14px;
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 480px) {
+  .btn_animation {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+}
