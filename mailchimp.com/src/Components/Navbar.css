@@ -1,0 +1,34 @@
+#Navbar_container {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: white;
+}
+
+#Navbar {
+  max-width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+
+#left_navs_links,
+#right_navs_links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.left_link:hover,
+#contact_no:hover {
+  color: #007c89;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+#mid_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
